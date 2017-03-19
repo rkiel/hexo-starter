@@ -34,12 +34,12 @@ yarn run hexo init blog
 
 ```bash
 mv blog ..
+cd ../blog
 ```
 
-#### Reset the node modules
+#### Reset the node modules with `yarn`
 
 ```bash
-cd ../blog
 rm -rf node_modules
 yarn install
 ```

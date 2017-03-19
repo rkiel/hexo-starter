@@ -38,10 +38,49 @@ rm -rf node_modules
 yarn install
 ```
 
+#### Add scripts to `package.json`
+
+```json
+  "scripts": {
+    "draft": "hexo new draft",
+    "publish": "hexo publish",
+    "start": "hexo server --draft"
+  }
+```
+
 #### Put the blog under source control
 
 ```bash
 git init
 git add .
 git commit -m "Initial commit"
+```
+
+#### Draft an article
+
+```bash
+yarn run draft "My First Article"
+```
+
+#### Run the server
+
+```bash
+yarn start
+```
+
+#### View the article
+
+[http://localhost:4000](http://localhost:4000)
+
+#### Publish the article
+
+```bash
+yarn run publish My-First-Article
+```
+
+#### Add the article to source control
+
+```bash
+git add source
+git commit -m "New article"
 ```

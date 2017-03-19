@@ -12,6 +12,12 @@ yarn add hexo-cli
 
 #### Add scripts to `package.json`
 
+```bash
+vim package.json
+```
+
+Add the following contents:
+
 ```json
 "scripts": {
   "hexo": "hexo"
@@ -40,6 +46,12 @@ yarn install
 
 #### Add scripts to `package.json`
 
+```bash
+vim package.json
+```
+
+Add the following contents:
+
 ```json
   "scripts": {
     "draft": "hexo new draft",
@@ -47,6 +59,14 @@ yarn install
     "start": "hexo server --draft"
   }
 ```
+
+#### Customize
+
+```bash
+vim _config.yml
+```
+
+Update the `title` and `author` fields.
 
 #### Put the blog under source control
 

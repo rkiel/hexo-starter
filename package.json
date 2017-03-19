@@ -1,0 +1,14 @@
+{
+  "name": "hexo-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rkiel/hexo-starter.git",
+  "author": "rkiel <cygnus@pobox.com>",
+  "license": "MIT",
+  "scripts": {
+    "hexo": "hexo"
+  },
+  "dependencies": {
+    "hexo-cli": "^1.0.2"
+  }
+}

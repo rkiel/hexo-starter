@@ -6,7 +6,7 @@
   "author": "rkiel <cygnus@pobox.com>",
   "license": "MIT",
   "scripts": {
-    "hexo": "hexo"
+    "generate": "hexo init"
   },
   "dependencies": {
     "hexo-cli": "^1.0.2"

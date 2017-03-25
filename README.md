@@ -20,26 +20,20 @@ Add the following contents:
 
 ```json
 "scripts": {
-  "hexo": "hexo"
+  "generate": "hexo init"
 }
 ```
 
 #### Create a new blog
 
 ```bash
-yarn run hexo init blog
-```
-
-#### Move the new blog
-
-```bash
-mv blog ..
-cd ../blog
+yarn run generate ~/blog
 ```
 
 #### Reset the node modules with `yarn`
 
 ```bash
+cd ~/blog
 rm -rf node_modules
 yarn install
 ```
@@ -55,6 +49,8 @@ Add the following contents:
 ```json
   "scripts": {
     "draft": "hexo new draft",
+    "generate": "rm -rf public && hexo generate",
+    "list": "hexo list post && echo && hexo list tag && echo && hexo list category && echo && hexo list page",
     "publish": "hexo publish",
     "start": "hexo server --draft"
   }
@@ -95,7 +91,7 @@ yarn start
 #### Publish the article
 
 ```bash
-yarn run publish My-First-Article
+yarn run publish "My First Article"
 ```
 
 #### Add the article to source control

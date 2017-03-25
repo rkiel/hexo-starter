@@ -13,7 +13,7 @@ Create an initial, starter `package.json`.
 yarn init -y
 ```
 
-### Install Hexo command-line
+#### Install Hexo command-line
 
 ```bash
 yarn add hexo-cli

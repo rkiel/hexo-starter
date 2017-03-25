@@ -1,13 +1,11 @@
-#### Initial setup
-
-Create a space to work in.
+#### Create a space to work in
 
 ```bash
 mkdir ~/hexo-cli-tool
 cd ~/hexo-cli-tool
 ```
 
-Create an initial, starter `package.json`.
+#### Create an initial, starter `package.json`.
 
 ```bash
 yarn init -y

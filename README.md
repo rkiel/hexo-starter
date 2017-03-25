@@ -107,3 +107,9 @@ yarn run publish "My First Article"
 git add source
 git commit -m "New article"
 ```
+
+####  Prepare blog for hosting
+
+```bash
+yarn run generate
+```
